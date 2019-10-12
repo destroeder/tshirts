@@ -1,0 +1,448 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+#wrapper{
+    max-width: 1500px;
+}
+header{
+    height: auto;
+    width: 100%;
+}
+#contact{
+    height: 95px;
+    padding: 0px 60px 0px 60px;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-content: center;
+    align-content: center;
+    -webkit-align-content: center;
+    align-items: center;
+    background-color: #FFB800;
+    font-family: Prosto One;
+    overflow: hidden;
+font-style: normal;
+font-weight: normal;
+font-size: 2vw;
+line-height: 37px;
+text-align: center;
+
+color: #000000;
+text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+}
+header a{
+    text-decoration: none;
+    color: #000;
+}
+header a:hover{
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.35);
+}
+.cont{
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    align-items: baseline;
+}
+#logo{
+    width: 300px;
+}
+#navigation{
+    height: auto;
+    min-height: 43px;
+    padding: 0px 17.8685% 0px 22.4103%;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.anchor{
+    width: auto;
+    display: flex;
+    height: auto;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding: 0px 30px 0px 30px;
+    font-family: Prosto One;
+font-style: normal;
+font-weight: normal;
+font-size: 1.5vw;
+line-height: 30px;
+color: #FFFFFF;
+}
+
+
+/*Конец шапки*/
+
+
+#delivery, #print{
+font-family: Prosto One;
+font-style: normal;
+font-weight: normal;
+-webkit-text-align: center;
+text-align: center;
+color: #000000;
+}
+#delivery{
+    width: 40%;
+    margin-top: 15px;
+    font-size: 2.4vw;
+    line-height: 38px;
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+}
+#print{
+    width: 50%;
+    margin-top: 1vw;
+    font-size: 2.8vw;
+line-height: 56px;
+text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+}
+.text{
+    position: absolute;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    z-index: 1;
+}
+#circle{
+width: 900px;
+height: 890px;
+position: absolute;
+right: 0px;
+top: -100px;
+border-radius: 50%;
+background: #FFB800;
+display: flex;
+-webkit-flex-direction: column;
+flex-direction: column;
+-webkit-align-content: center;
+align-content: center;
+-webkit-justify-content: center;
+justify-content: center;
+}
+.circle{
+    width: 847px;
+    height: 585px;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    -webkit-align-content: center;
+    align-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+#mainimg{
+display: block;
+width: 512px;
+height: 585px;
+margin-right: 3%;
+}
+#mainscreen{
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+
+/* End of mainscreen */
+
+
+#prod{
+    padding: 60px 3.5% 40px 3.5%;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-align-content: center;
+    align-content: center;
+}
+.box{
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+    min-width: 260px;
+    max-width: 310px;
+width: 30%;
+height: 300px;
+padding: 20px 17px 22px 17px;
+background: #222222;
+border-radius: 10px;
+margin: 0px 20px 40px 20px;
+-webkit-align-items: center;
+align-items: center;
+}
+.signimg{
+    width: 200px;
+    height: 220px;
+}
+.background{
+    width: 100%;
+height: 226px;
+background-color: #FFB800;
+display: flex;
+-webkit-align-items: center;
+align-items: center;
+-webkit-justify-content: center;
+justify-content: center;
+}
+.sign{
+    font-family: Prosto One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.8vw;
+    text-align: center;
+    color: #FFFFFF;
+}
+#description{
+    min-height: 30px;
+    max-height: 90px;
+    padding: 10px 10px 10px 10px;
+    height: auto;
+    background: #222222;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+h1{
+font-family: Prosto One;
+font-style: normal;
+font-weight: normal;
+font-size: 2.9vw;
+line-height: 90px;
+-webkit-text-align: center;
+text-align: center;
+color: #FFFFFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.delivpay{
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+}
+h2{
+    -webkit-text-align: center;
+    text-align: center;
+    font-family: Prosto One;
+    max-height: 55px;
+font-style: normal;
+font-weight: normal;
+font-size: 2.2vw;
+line-height: 50px;
+height: auto;
+color: #000000;
+margin-bottom: 1vw;
+margin-top: 1vw;
+}
+.delivpay h3{
+    font-family: Prosto One;
+    width: 83.3333333%;
+font-style: normal;
+font-weight: normal;
+font-size: 1.3vw;
+line-height: 25px;
+text-align: center;
+margin-top: 5px;
+margin-bottom: 1vw;
+color: #D10000;
+}
+.dp{
+    font-family: Prosto One;
+    width: 83.33333333%;
+font-style: normal;
+font-weight: normal;
+font-size: 1.15vw;
+line-height: 20px;
+-webkit-text-align: center;
+text-align: center;
+margin-bottom: 1vw;
+color: #000000;
+}
+.content{
+    background: #030303;
+    background-image: url(../Images/img/map.jpg);
+    background-size: contain;
+}
+footer{
+    background: #222;
+    height: 160px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+}
+footer h3{
+    display: block;
+    font-family: Prosto One;
+    width: 83.3333333%;
+font-style: normal;
+font-weight: normal;
+margin-bottom: 26px;
+font-size: 24px;
+line-height: 1;
+-webkit-text-align: center;
+text-align: center;
+color: #FFFFFF;
+}
+.imgsm{
+    width: 50px;
+height: 50px; 
+}
+#socialmedia{
+    width: 10%;
+    min-width: 110px;
+    max-width: 400px;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    .sign {
+    font-size: 28px;
+    }
+}
+@media screen and (min-width: 1600px) {
+    #print, h2 {
+    font-size: 48px;
+    }
+    #delivery{
+        font-size: 42px;
+    }
+    .delivpay h3, .dp{
+        font-size: 26px;
+    }
+    h1 {
+        font-size: 78px;
+    }
+    .anchor {
+        font-size: 24px;
+    }
+    #date, .mail, #logo{
+        font-size: 32px;
+    }
+    .dp, h3, h2{
+        line-height: 1;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .dp {
+    font-size: 14px;
+    }
+    .delivpay h2{
+    font-size: 18px;
+    }
+    .delivpay h3{
+        font-size: 16px;
+    }
+    #circle{
+        border-radius: 40%;
+    }
+    #mainscreen{
+        display: flex;
+        justify-content: space-between;
+    }
+    #print, #delivery{
+        font-size: 5vw;
+        line-height: 1;
+        width: 70%; 
+    }
+    #print{
+        margin-top: 4vw;
+    }
+}
+@media screen and (min-width: 320px)and (max-width: 1050px) {
+    #logo{
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        z-index: -5;
+    }
+    .mail, #date{
+        font-size: 12px;
+        padding-bottom: 5px;
+        line-height: 1;
+    }
+    #contact, .cont{
+        height: 80px;
+        -webkit-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: space-around;
+        justify-content: space-around;
+        padding: 5px 15px 5px 15px;
+    }
+    #navigation{
+        padding: 0px 0% 0px 0%;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-justify-content: center;
+        justify-content: center;
+    }
+    .anchor{
+        padding: 0px;
+        font-size: 12px;
+        line-height: 1; 
+        margin-left: 10%;
+    }
+    #print, #delivery{
+        font-size: 4vw;
+        line-height: 1;
+        width: 90%; 
+    }
+    #mainscreen{
+        height: 56vw;
+        overflow: hidden;
+        display: flex;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #mainimg{
+        display:block;
+        margin:0px;
+        width: 45vw;
+        height: 100%;
+    }
+    .circle{
+        width: 58%;
+        display: flex;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-items: center;
+        justify-items: center;
+    }
+    .sign{
+        font-size: 18px;
+    }
+}
